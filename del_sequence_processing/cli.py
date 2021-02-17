@@ -2,7 +2,7 @@
 Entry point to 'del_sequence_processing' command line script.
 """
 
-from del_sequence_processing.del_sequence_processing import main
+from del_sequence_processing import main
 import click
 
 # Using click to manage the command line interface
