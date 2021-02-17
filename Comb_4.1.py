@@ -84,7 +84,7 @@ runsratio=libcountssum/selcountssum
 
 
 
-with open('script_directory_to_arrange/Comb_auxiliary_file.csv') as csv_file:
+with open('aux_files/Comb_auxiliary_file.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter='\t')
     for row in csv_reader:
         _AAA.append(row[0])
